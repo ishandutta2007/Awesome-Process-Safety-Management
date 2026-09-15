@@ -7,24 +7,28 @@ description: >-
 
 # Generate Social Preview GIF Skill
 
-This skill provides an automated Node.js script to create lightweight, zero-dependency, pixel-perfect animated GIFs formatted for GitHub repository Social Previews.
+This skill provides an automated generator to create lightweight, high-fidelity animated GIFs formatted for GitHub repository Social Previews.
 
 ## Specifications
 
 - **Dimensions**: Exactly 640px (width) x 320px (height).
-- **Padding**: 50px top and bottom padding (all visual content contained between `y = 50` and `y = 270`).
-- **File Size**: Guaranteed < 1 MB (typically < 100 KB using custom 8-bit palette + LZW GIF stream encoder).
+- **Padding**: Strictly 50px top and bottom padding (all visual content contained between `y = 50` and `y = 270` to prevent being cropped by GitHub's header UI).
+- **File Size**: Guaranteed strictly < 1 MB (typically ~180 KB using optimized 128-color quantization).
+- **Dynamic Behavior**: Sine wave oscillation matching `assets/banner.svg` with a glowing moving safety indicator dot.
 - **Output Location**: `assets/preview.gif`
 
-## Helper Script
+## Generator Scripts
 
-The generator script is located at:
-[generate_gif.js](./scripts/generate_gif.js)
+- **Python (Recommended for pixel-perfect TrueType typography & anti-aliased rendering)**:
+  [generate_gif.py](./scripts/generate_gif.py)
+- **Node.js (Alternative lightweight fallback)**:
+  [generate_gif.js](./scripts/generate_gif.js)
 
 ## Usage
 
-To generate `assets/preview.gif` in the root workspace directory, run:
+To regenerate `assets/preview.gif`, run:
 
 ```bash
-node .agents/skills/generate-social-preview-gif/scripts/generate_gif.js
+python .agents/skills/generate-social-preview-gif/scripts/generate_gif.py
 ```
+

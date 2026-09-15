@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5e62" />
+      <stop offset="50%" stop-color="#ff9966" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="240" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="2" />
+
+  <!-- Shield Logo -->
+  <g transform="translate(50, 60)" filter="url(#glow)">
+    <path d="M40 10 L75 25 V60 C75 90 40 110 40 110 C40 110 5 90 5 60 V25 Z" fill="none" stroke="url(#accent)" stroke-width="5" />
+    <path d="M40 35 L40 75 M20 55 L60 55" stroke="#ff9966" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography -->
+  <text x="150" y="95" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="32" letter-spacing="1">Awesome Process Safety</text>
+  <text x="150" y="135" fill="#58a6ff" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="24" letter-spacing="2">MANAGEMENT (PSM) ECOSYSTEM</text>
+  <text x="150" y="170" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="15">Curated SaaS Platforms, Risk Analysis Frameworks &amp; Open-Source Tools</text>
+
+  <!-- Dynamic Wave Path with SMIL Animation -->
+  <path fill="none" stroke="url(#accent)" stroke-width="3" filter="url(#glow)" opacity="0.85">
+    <animate attributeName="d" 
+             dur="4s" 
+             repeatCount="indefinite" 
+             values="M 50 205 Q 250 185 450 205 T 850 205;
+                     M 50 205 Q 250 225 450 205 T 850 205;
+                     M 50 205 Q 250 185 450 205 T 850 205" />
+  </path>
+  
+  <circle cx="450" cy="205" r="5" fill="#ff5e62" filter="url(#glow)">
+    <animate attributeName="cx" dur="4s" repeatCount="indefinite" values="50;850;50" />
+  </circle>
+</svg>

@@ -1,166 +1,108 @@
-# Awesome-Process-Safety-Management
+# Awesome Process Safety Management (PSM) 🛡️
 
-## Top Process Safety Management (PSM) Platforms Ecosystem
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Process Safety Management](https://img.shields.io/badge/Domain-Process%20Safety%20Management-brightgreen?style=flat-square)](https://github.com/ishandutta2007/Awesome-Process-Safety-Management) [![Compliance Standards](https://img.shields.io/badge/Compliance-OSHA%20PSM%20%7C%20Seveso%20III-orange?style=flat-square)](https://www.osha.gov/process-safety-management) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+![Awesome Process Safety Management Banner](assets/banner.svg)
 
-*Focused on Process Hazard Analysis, MOC, Incident Management, Risk Assessment, Compliance & High-Hazard Operations*
+## 📌 Top Process Safety Management (PSM) Platforms & Risk Engineering Ecosystem
 
-**Last updated: September 2026**
+**Curated List of SaaS Products, Industrial Risk Management Software & Open-Source GitHub Projects** 🚀
 
+*Focused on Process Hazard Analysis (PHA/HAZOP), Management of Change (MOC), Incident Investigation, Bow-Tie Risk Assessment, Quantitative Risk Analysis (QRA), Mechanical Integrity, Compliance & High-Hazard Operations.* ⚙️
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Process Safety Management (PSM)**. These systems help high-hazard industries manage process safety elements including hazard analysis, management of change (MOC), mechanical integrity, incident investigation, operating procedures, and regulatory compliance (e.g., OSHA PSM, Seveso).
-
-
-
-**Examples** include Sphera PSM, ProcessMAP, VelocityEHS, Intelex, Enablon, Benchmark Gensuite, PETROSIM Safety, SafetyCulture Enterprise, Cority PSM, and ETQ Reliance (the category leaders).
-
-
-
-**Open-source emphasis**: Full-featured PSM platforms for regulated high-hazard industries are almost entirely commercial. Emerging open EHS tools and specialized safety frameworks exist but lack the depth of enterprise PSM suites. This section lists the strongest available open resources and is realistic about the gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-| SaaS Product | Description | Pricing | Free Tier Limits |
-| :--- | :--- | :--- | :--- |
-| **[Sphera PSM](https://sphera.com/)** | Enterprise process safety management platform with strong capabilities in risk management, control of work, and high-hazard operations. | Custom enterprise quotes (~$40,000/year base depending on scope/modules) | No free tier or public free trial; custom demo available upon request |
-| **[ProcessMAP](https://www.processmap.com/)** | EHS and sustainability platform that includes process safety and operational risk management features. | Custom enterprise quotes based on organization size and module selection | No free tier or trial; live demo provided upon request |
-| **[VelocityEHS](https://www.velocityehs.com/)** | Mid-to-enterprise EHS platform with robust chemical management, risk visualization, and process safety support. | Custom enterprise quotes (~$9,000–$100,000+/year depending on tier/modules) | Free 30-day trial limited specifically to SDS management; core PSM via demo |
-| **[Intelex](https://www.intelex.com/)** | Configurable EHSQ platform used for process safety, incident management, audits, and compliance workflows at scale. | Starts at $49/user/month (Safety Essentials plan, minimum seat requirement) | No free tier or self-serve trial; live product demonstration available |
-| **[Enablon (Wolters Kluwer)](https://www.enablon.com/)** | Leading enterprise operational risk and process safety platform built for large, high-hazard organizations. | Custom enterprise quotes (~$50,000+/year for global enterprise scope) | No free tier or public trial; custom sales demo provided |
-| **[Benchmark Gensuite](https://www.benchmarkgensuite.com/)** | EHS platform offering process safety and related modules with AI-assisted capabilities. | Custom enterprise quotes scaled by site count and active application modules | No free tier or free trial; guided "Test Drive" / demo available |
-| **[PETROSIM Safety](https://www.kbc.global/)** | Specialized process simulation and safety analysis tools used in oil, gas, and chemical industries. | Custom industrial license quoting per site/user suite deployment | No free tier or public trial; pilot evaluation available for enterprise clients |
-| **[SafetyCulture Enterprise](https://safetyculture.com/)** | Inspection and safety platform that scales to enterprise use cases including operational safety programs. | Premium plan starts at $24/user/month (billed annually) or $29/user/month (billed monthly) | Free forever plan available for up to 10 users with a 5 active template limit |
-| **[Cority PSM](https://www.cority.com/)** | EHS platform with process safety capabilities alongside strong occupational health and industrial hygiene modules. | Custom enterprise quotes (~$40,000–$80,000/year typical mid-market entry) | No free tier or self-serve trial; enterprise demo available |
-| **[ETQ Reliance](https://www.etq.com/)** | Quality and compliance platform that supports process safety, risk management, and regulated workflows. | Custom enterprise quotes (base cloud deployments typically start around $10,000/year) | No free tier or trial period; direct vendor demo available |
-
-
-
-## Open-Source GitHub Projects
-
-- **[DocuFinch and emerging open EHS platforms](https://github.com/)**  
-
-  Open-source EHS software focused on incident management, compliance features, and self-hosted safety workflows.
-
-
-
-- **[Open EHS / environmental health & safety experiments](https://github.com/)**  
-
-  Community and initiative projects aiming to provide incident reporting, chemical management, training, and audit capabilities.
-
-
-
-- **[OTsafe and cyber-physical safety frameworks](https://github.com/p4lsec/otsafe)**  
-
-  Open frameworks for safety modeling and detection-as-code approaches relevant to process and operational technology safety.
-
-
-
-- **[Incident and CAPA open trackers](https://github.com/)**  
-
-  Lightweight open tools for incident reporting, investigation, and corrective/preventive action management.
-
-
-
-- **[Risk matrix and PHA open helpers](https://github.com/)**  
-
-  Tools and templates that support process hazard analysis, risk ranking, and basic documentation.
-
-
-
-- **[Management of Change (MOC) open workflow prototypes](https://github.com/)**  
-
-  Experimental systems for tracking changes, approvals, and associated safety reviews.
-
-
-
-- **[Chemical inventory and SDS open libraries](https://github.com/)**  
-
-  Open components for managing safety data sheets and basic chemical information (often combined with commercial data).
-
-
-
-- **[Inspection and checklist open platforms](https://github.com/)**  
-
-  Mobile-friendly open tools for safety inspections and audits that can feed into broader PSM programs.
-
-
-
-- **[Document control and procedure open systems](https://github.com/)**  
-
-  Open document management platforms used to control operating procedures and safety-critical documents.
-
-
-
-- **[Training and competency open trackers](https://github.com/)**  
-
-  Simple systems for tracking safety training completion relevant to PSM elements.
-
-
-
-### Additional Strong Open-Source Options
-
-- Exploring emerging open EHS platforms for smaller or less complex operations.
-
-- Using open incident/CAPA and document control tools as building blocks alongside commercial PSM.
-
-- Applying specialized open safety modeling frameworks for OT and cyber-physical aspects.
-
-- Accepting that full OSHA PSM / Seveso coverage, bow-tie analysis, advanced MOC, mechanical integrity integration, and enterprise-scale audit trails still require commercial platforms (Sphera, Enablon, VelocityEHS, Intelex, Cority, etc.).
-
-- Combining open inspection tools with commercial process safety suites for field data capture.
-
-
-
-**Frameworks for building custom systems**: Start with open document control and incident tracking → add risk assessment and MOC workflows → integrate chemical and training data → layer commercial or specialized analysis tools for high-hazard elements. Suitable mainly for lower-complexity environments or as supplements. Commercial PSM platforms remain the practical and often regulatory-preferred choice for high-hazard process industries that need proven compliance support and deep functionality.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Process Safety Management is a highly regulated domain (OSHA PSM, EPA RMP, Seveso, and equivalents). Failures can result in catastrophic incidents, fatalities, and legal liability. Open-source or self-built solutions must be carefully validated, secured, and operated under competent process safety expertise. This list is not safety, engineering, or compliance advice. Always follow applicable regulations and industry standards.
-
-
+**Last updated: September 2026** 📅
 
 ---
 
-**Made for process safety engineers, EHS leaders, and high-hazard industry operators who need reliable risk control.**
+### 💡 Overview & Market Landscape
 
-Let's keep process safety rigorous, auditable, and as open as practical.
+This repository tracks top-tier commercial **SaaS platforms** and emerging **open-source repositories** for **Process Safety Management (PSM)** and Environmental Health & Safety (EHS). These software systems assist chemical, oil & gas, pharmaceutical, and high-hazard process facilities in fulfilling OSHA 1910.119 PSM, EPA RMP, and European Seveso III directives. 🏭
+
+#### 📊 Market Size & Structure Analysis
+- **Estimated Global EHS & PSM Software Market Size:** Valued at approximately **$2.5 Billion to $3.2 Billion (USD)**, growing at a CAGR of ~10.5%.
+- **Market Dynamics & Fragmentation:** The enterprise PSM and operational risk sector is **moderately consolidated at the high end (private equity & industrial conglomerate backed)** but **fragmented across specialized niche modules** (e.g., custom HAZOP, SDS parsers, OT cyber-physical safety). Private equity firms (Blackstone, Thoma Bravo, CVC) and industrial giants (Wolters Kluwer, Hexagon AB, Fortive) continue to acquire category leaders, making it a high-barrier enterprise domain. 📈
+
+---
+
+## 📑 Table of Contents
+- [SaaS / Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [Open-Source GitHub Projects](#-open-source-github-projects)
+- [How to Contribute](#-how-to-contribute)
+- [Disclaimer](#-disclaimer)
+- [Star History](#-star-history)
+
+---
+
+## 💼 SaaS / Commercial Hosted Platforms
+
+> [!NOTE]  
+> Commercial enterprise suites dominate high-hazard compliance (OSHA PSM / Seveso) due to regulatory audit trail requirements and complex multi-site risk matrix configurations.
+
+*Sorted by Company Size / Valuation / Revenue (Descending):* 🔽
+
+| SaaS Product 🛠️ | Description 📝 | Company Valuation / Scale 💰 | Pricing 🏷️ | Free Tier Limits 🎁 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Sphera PSM](https://sphera.com/)** | Enterprise process safety management platform with strong capabilities in risk management, control of work, and high-hazard operations. | **$3.0 Billion Valuation** (Acquired by Blackstone for $1.4B in 2021) | Custom enterprise quotes (~$40,000/year base depending on scope/modules) | No free tier or public free trial; custom demo available upon request |
+| **[SafetyCulture Enterprise](https://safetyculture.com/)** | Inspection and safety platform that scales to enterprise use cases including operational safety programs. | **$2.5 Billion Valuation** ($197M FY25 Revenue) | Premium plan starts at $24/user/month (billed annually) or $29/user/month (billed monthly) | Free forever plan available for up to 10 users with a 5 active template limit |
+| **[Cority PSM](https://www.cority.com/)** | EHS platform with process safety capabilities alongside strong occupational health and industrial hygiene modules. | **~$2.0 Billion Valuation** (Majority owned by Thoma Bravo) | Custom enterprise quotes (~$40,000–$80,000/year typical mid-market entry) | No free tier or self-serve trial; enterprise demo available |
+| **[ETQ Reliance](https://www.etq.com/)** | Quality and compliance platform that supports process safety, risk management, and regulated workflows. | **$1.2 Billion Valuation** (Acquired by Hexagon AB for $1.2B in 2022) | Custom enterprise quotes (base cloud deployments typically start around $10,000/year) | No free tier or trial period; direct vendor demo available |
+| **[Intelex](https://www.intelex.com/)** | Configurable EHSQ platform used for process safety, incident management, audits, and compliance workflows at scale. | **$570 Million Valuation** (Acquired by Fortive / Industrial Scientific) | Starts at $49/user/month (Safety Essentials plan, minimum seat requirement) | No free tier or self-serve trial; live product demonstration available |
+| **[VelocityEHS](https://www.velocityehs.com/)** | Mid-to-enterprise EHS platform with robust chemical management, risk visualization, and process safety support. | **$328 Million Valuation** (Backed by CVC Growth & Partners Group) | Custom enterprise quotes (~$9,000–$100,000+/year depending on tier/modules) | Free 30-day trial limited specifically to SDS management; core PSM via demo |
+| **[Enablon (Wolters Kluwer)](https://www.enablon.com/)** | Leading enterprise operational risk and process safety platform built for large, high-hazard organizations. | **~$300 Million Valuation** (Acquired by Wolters Kluwer for €250M) | Custom enterprise quotes (~$50,000+/year for global enterprise scope) | No free tier or public trial; custom sales demo provided |
+| **[Benchmark Gensuite](https://www.benchmarkgensuite.com/)** | EHS platform offering process safety and related modules with AI-assisted capabilities. | **Private Enterprise** (Backed by Vista Equity Partners growth investment) | Custom enterprise quotes scaled by site count and active application modules | No free tier or free trial; guided "Test Drive" / demo available |
+| **[ProcessMAP](https://www.processmap.com/)** | EHS and sustainability platform that includes process safety and operational risk management features. | **Private Enterprise** (Acquired by Ideagen Group) | Custom enterprise quotes based on organization size and module selection | No free tier or trial; live demo provided upon request |
+| **[PETROSIM Safety](https://www.kbc.global/)** | Specialized process simulation and safety analysis tools used in oil, gas, and chemical industries. | **Sub-Unit of Yokogawa** (Under KBC Advanced Technologies) | Custom industrial license quoting per site/user suite deployment | No free tier or public trial; pilot evaluation available for enterprise clients |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> [!TIP]  
+> Open-source projects offer modular components for hazard analysis, safety data sheet (SDS) parsing, threat modeling, and OT cyber-physical safety.
+
+*Sorted by GitHub Star Count (Descending):* 🔽
+
+| Project / Repository 📦 | Star Count ⭐ | Description 📝 |
+| :--- | :--- | :--- |
+| **[arnepadmos/threats](https://github.com/arnepadmos/threats)** | [![Stars](https://img.shields.io/github/stars/arnepadmos/threats?style=social&color=white)](https://github.com/arnepadmos/threats/stargazers) | Curated threat modeling resources and risk frameworks, including Bow-Tie risk matrix methodologies for process safety. |
+| **[anandman/functional-safety](https://github.com/anandman/functional-safety)** | [![Stars](https://img.shields.io/github/stars/anandman/functional-safety?style=social&color=white)](https://github.com/anandman/functional-safety/stargazers) | Complete functional safety (ISO 26262 / IEC 61508) document set including Hazard Analysis & Risk Assessment (HARA). |
+| **[khoivan88/find_sds](https://github.com/khoivan88/find_sds)** | [![Stars](https://img.shields.io/github/stars/khoivan88/find_sds?style=social&color=white)](https://github.com/khoivan88/find_sds/stargazers) | Automated Python utility to fetch and download chemical Safety Data Sheets (SDS) in PDF format using CAS numbers. |
+| **[astepe/sds_parser](https://github.com/astepe/sds_parser)** | [![Stars](https://img.shields.io/github/stars/astepe/sds_parser?style=social&color=white)](https://github.com/astepe/sds_parser/stargazers) | Open Python library and parser tool to extract chemical hazards, NFPA ratings, and data from Safety Data Sheets. |
+| **[USEPA/CompTox-PK-CvTdb](https://github.com/USEPA/CompTox-PK-CvTdb)** | [![Stars](https://img.shields.io/github/stars/USEPA/CompTox-PK-CvTdb?style=social&color=white)](https://github.com/USEPA/CompTox-PK-CvTdb/stargazers) | US EPA Computational Toxicology Concentration vs Time Database for chemical exposure risk modeling and safety assessment. |
+| **[p4lsec/otsafe](https://github.com/p4lsec/otsafe)** | [![Stars](https://img.shields.io/github/stars/p4lsec/otsafe?style=social&color=white)](https://github.com/p4lsec/otsafe/stargazers) | Detection-as-Code & process safety modeling framework for operational technology (OT) and cyber-physical control systems. |
+| **[CrucibleSDS/tungsten](https://github.com/CrucibleSDS/tungsten)** | [![Stars](https://img.shields.io/github/stars/CrucibleSDS/tungsten?style=social&color=white)](https://github.com/CrucibleSDS/tungsten/stargazers) | Lightweight material safety data sheet (MSDS / SDS) parsing library built for chemical management workflows. |
+
+---
+
+### 🛠️ Architecture Framework for Building Custom PSM Systems
+1. **Document Control & SDS Management**: Start with `find_sds` & `sds_parser` for chemical safety data ingestion.
+2. **Hazard Analysis & Risk Modeling**: Utilize `arnepadmos/threats` and `anandman/functional-safety` for HAZOP and Bow-Tie risk mapping.
+3. **Operational Technology Protection**: Deploy `p4lsec/otsafe` for OT sensor monitoring and safety integrity level (SIL) enforcement.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository.
+2. Add/edit entries in `README.md` following the table schema.
+3. Ensure pricing, valuation, and star count badges follow the standard format.
+4. Submit a Pull Request with a clear summary of additions.
+
+For more awesome lists, check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)! ⭐
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** for informational and educational purposes only.
+- Process Safety Management involves regulated, high-hazard operations (OSHA PSM 1910.119, EPA RMP, Seveso III Directive). Software implementation requires professional process safety engineering validation.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Process-Safety-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Process-Safety-Management&type=date&legend=top-left)
+
+---
+
+**Made with ❤️ for Process Safety Engineers, EHS Leaders, & High-Hazard Plant Operators.** 🏭✨

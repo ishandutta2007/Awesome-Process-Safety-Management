@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Sphera PSM](https://sphera.com/)**  
-
-  Enterprise process safety management platform with strong capabilities in risk management, control of work, and high-hazard operations.
-
-
-
-- **[ProcessMAP](https://www.processmap.com/)**  
-
-  EHS and sustainability platform that includes process safety and operational risk management features.
-
-
-
-- **[VelocityEHS](https://www.velocityehs.com/)**  
-
-  Mid-to-enterprise EHS platform with robust chemical management, risk visualization, and process safety support.
-
-
-
-- **[Intelex](https://www.intelex.com/)**  
-
-  Configurable EHSQ platform used for process safety, incident management, audits, and compliance workflows at scale.
-
-
-
-- **[Enablon (Wolters Kluwer)](https://www.enablon.com/)**  
-
-  Leading enterprise operational risk and process safety platform built for large, high-hazard organizations.
-
-
-
-- **[Benchmark Gensuite](https://www.benchmarkgensuite.com/)**  
-
-  EHS platform offering process safety and related modules with AI-assisted capabilities.
-
-
-
-- **[PETROSIM Safety](https://www.kbc.global/)** (or related process simulation safety tools)  
-
-  Specialized process simulation and safety analysis tools used in oil, gas, and chemical industries.
-
-
-
-- **[SafetyCulture Enterprise](https://safetyculture.com/)**  
-
-  Inspection and safety platform that scales to enterprise use cases including operational safety programs.
-
-
-
-- **[Cority PSM](https://www.cority.com/)**  
-
-  EHS platform with process safety capabilities alongside strong occupational health and industrial hygiene modules.
-
-
-
-- **[ETQ Reliance](https://www.etq.com/)**  
-
-  Quality and compliance platform that supports process safety, risk management, and regulated workflows.
+| SaaS Product | Description | Pricing | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Sphera PSM](https://sphera.com/)** | Enterprise process safety management platform with strong capabilities in risk management, control of work, and high-hazard operations. | Custom enterprise quotes (~$40,000/year base depending on scope/modules) | No free tier or public free trial; custom demo available upon request |
+| **[ProcessMAP](https://www.processmap.com/)** | EHS and sustainability platform that includes process safety and operational risk management features. | Custom enterprise quotes based on organization size and module selection | No free tier or trial; live demo provided upon request |
+| **[VelocityEHS](https://www.velocityehs.com/)** | Mid-to-enterprise EHS platform with robust chemical management, risk visualization, and process safety support. | Custom enterprise quotes (~$9,000–$100,000+/year depending on tier/modules) | Free 30-day trial limited specifically to SDS management; core PSM via demo |
+| **[Intelex](https://www.intelex.com/)** | Configurable EHSQ platform used for process safety, incident management, audits, and compliance workflows at scale. | Starts at $49/user/month (Safety Essentials plan, minimum seat requirement) | No free tier or self-serve trial; live product demonstration available |
+| **[Enablon (Wolters Kluwer)](https://www.enablon.com/)** | Leading enterprise operational risk and process safety platform built for large, high-hazard organizations. | Custom enterprise quotes (~$50,000+/year for global enterprise scope) | No free tier or public trial; custom sales demo provided |
+| **[Benchmark Gensuite](https://www.benchmarkgensuite.com/)** | EHS platform offering process safety and related modules with AI-assisted capabilities. | Custom enterprise quotes scaled by site count and active application modules | No free tier or free trial; guided "Test Drive" / demo available |
+| **[PETROSIM Safety](https://www.kbc.global/)** | Specialized process simulation and safety analysis tools used in oil, gas, and chemical industries. | Custom industrial license quoting per site/user suite deployment | No free tier or public trial; pilot evaluation available for enterprise clients |
+| **[SafetyCulture Enterprise](https://safetyculture.com/)** | Inspection and safety platform that scales to enterprise use cases including operational safety programs. | Premium plan starts at $24/user/month (billed annually) or $29/user/month (billed monthly) | Free forever plan available for up to 10 users with a 5 active template limit |
+| **[Cority PSM](https://www.cority.com/)** | EHS platform with process safety capabilities alongside strong occupational health and industrial hygiene modules. | Custom enterprise quotes (~$40,000–$80,000/year typical mid-market entry) | No free tier or self-serve trial; enterprise demo available |
+| **[ETQ Reliance](https://www.etq.com/)** | Quality and compliance platform that supports process safety, risk management, and regulated workflows. | Custom enterprise quotes (base cloud deployments typically start around $10,000/year) | No free tier or trial period; direct vendor demo available |
 
 
 

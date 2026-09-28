@@ -71,6 +71,7 @@ This repository tracks top-tier commercial **SaaS platforms** and emerging **ope
 | **[USEPA/CompTox-PK-CvTdb](https://github.com/USEPA/CompTox-PK-CvTdb)** | [![Stars](https://img.shields.io/github/stars/USEPA/CompTox-PK-CvTdb?style=social&color=white)](https://github.com/USEPA/CompTox-PK-CvTdb/stargazers) | US EPA Computational Toxicology Concentration vs Time Database for chemical exposure risk modeling and safety assessment. |
 | **[p4lsec/otsafe](https://github.com/p4lsec/otsafe)** | [![Stars](https://img.shields.io/github/stars/p4lsec/otsafe?style=social&color=white)](https://github.com/p4lsec/otsafe/stargazers) | Detection-as-Code & process safety modeling framework for operational technology (OT) and cyber-physical control systems. |
 | **[CrucibleSDS/tungsten](https://github.com/CrucibleSDS/tungsten)** | [![Stars](https://img.shields.io/github/stars/CrucibleSDS/tungsten?style=social&color=white)](https://github.com/CrucibleSDS/tungsten/stargazers) | Lightweight material safety data sheet (MSDS / SDS) parsing library built for chemical management workflows. |
+| **[braedonsaunders/beaconhs](https://github.com/braedonsaunders/beaconhs)** | [![Stars](https://img.shields.io/github/stars/braedonsaunders/beaconhs?style=social&color=white)](https://github.com/braedonsaunders/beaconhs/stargazers) | Open-source HSE platform for industrial construction covering incidents, inspections, training, equipment, permits, and a form engine. |
 
 ---
 
